@@ -655,18 +655,18 @@
                 </section>
 
                 <section class="page5">
-                    <div class="top-abs">
-                        <a href="#" class="nav-top 4"></a>
-                    </div>
 
-
-                    <div id="bg">
-                        <img src="<?php echo INCLUDE_DIR; ?>wow/img/box.png" class="small">
-                    </div>
 
                     <div class="page_container">
 
+                        <div class="top-abs">
+                            <a href="#" class="nav-top 4"></a>
+                        </div>
 
+
+                        <div id="bg">
+                            <img src="<?php echo INCLUDE_DIR; ?>wow/img/box.png" class="small">
+                        </div>
 
                         <div class="content-a">
                             <div class="content-b">
