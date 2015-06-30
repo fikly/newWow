@@ -1,0 +1,2 @@
+[31-Mar-2015 14:59:38 UTC] PHP Fatal error:  Using $this when not in object context in /home/k1003608/public_html/application/modules/home/views/v_home-x.php on line 12
+[31-Mar-2015 14:59:39 UTC] PHP Fatal error:  Using $this when not in object context in /home/k1003608/public_html/application/modules/home/views/v_home.php on line 16
