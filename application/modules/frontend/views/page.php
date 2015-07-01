@@ -680,7 +680,7 @@
                                             <a href="<?php echo INCLUDE_DIR; ?>wow/contact.php" class="icon-email fancybox fancybox.ajax"></a>
                                         </div>
                                         <div class="box-icon-col-contact">
-                                            <a href="<?php echo INCLUDE_DIR; ?>wow/career.php" class="icon-team fancybox fancybox.ajax"></a>
+                                            <a href="<?php echo base_url(); ?>career" class="icon-team fancybox fancybox.ajax"></a>
                                             <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3966.7059797968277!2d106.7748079!3d-6.170109999999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6524bc162df%3A0xbc17cd0375b590c5!2sJl.+Komp.+Graha+Indah+Green+Ville+Blok+Ax+No.4%2C+Kebonjeruk%2C+Kota+Jak+Bar.%2C+Daerah+Khusus+Ibukota+Jakarta+11510!5e0!3m2!1sid!2sid!4v1420601008780" class="icon-map fancybox fancybox.iframe"></a>
                                         </div>
                                         <div class="box-icon-col-contact">
@@ -847,6 +847,5 @@
 
             });
         </script>
-
     </body>
 </html>

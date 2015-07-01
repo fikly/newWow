@@ -13,6 +13,10 @@ class Main extends MX_Controller {
         $this->load->view("frontend/landingPage");
     }
 
+    public function career() {
+        $this->load->view("frontend/career");
+    }
+
     public function page() {
         $data = array(
             'viewClient' => $this->main_model->view_client()
