@@ -74,7 +74,7 @@
                 <div class="content-slide slide-3">
                     <div class="web">
                         <img src="<?php echo INCLUDE_DIR ?>wow/static/images/third-slide/middle.png" style="position: absolute;left: 0px;top: 0;" class="img-responsive">
-                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/third-slide/front.png" style="position: absolute;left: 10%;top: 0;" class="img-responsive">
+                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/third-slide/front.png" class="img-wow img-responsive">
                     </div>
                     <div class="mobile">
                         <img src="<?php echo INCLUDE_DIR ?>wow/static/images/third-slide/mobile/middle.png" class="img-responsive">

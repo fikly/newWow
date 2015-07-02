@@ -71,3 +71,13 @@ body{
         display: block;
     }
 }
+@media screen and (max-width:1920px){
+    .img-wow{
+        left: 22%;
+    }
+}
+@media screen and (max-width:1366px){
+    .img-wow{
+        left: 12%;
+    }
+}

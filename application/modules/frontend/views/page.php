@@ -156,7 +156,7 @@
                             <h2>agency</h2>
                         </div>
                         <span class="txt-bottom-home animated fadeIn" id="kelima">
-                            <font face="Arial" size="2pt" color="#26b571">One stop full services Advertising Agency which implement 360 communication brand channel with various range of service compliment, ensuring the way of winning to brand success</font>
+                            <font face="dinPro" size="2pt" color="#26b571">One stop full services Advertising Agency which implement 360 communication brand channel with various range of service compliment, ensuring the way of winning to brand success</font>
                         </span>
                     </div>
 
@@ -547,7 +547,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama" style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-size: 11px; font-style: bold;"> <strong>
+                                                            <p class="nama" style="font-family: dinPro; font-size: 11px; font-style: bold;"> <strong>
                                                                     Udi Husodo<br>
                                                                     Associate Creative Director<br><br></strong></p>
                                                             <p style="font-size:10px;">&nbsp;&nbsp;&nbsp;Deep. Bold. Earthy. Loves Instagram too.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -573,7 +573,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama3" style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-size: 11px; font-style: bold;"><strong>
+                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
                                                                     Bambang Srihana<br>
                                                                     Senior Art Director <br><br>  </strong></p>
                                                             <p style="font-size:10px;"> In his third decade working in the creative field, he is still as fresh as ever, with wisdom as his weapon of choice.</p>
@@ -598,7 +598,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama3" style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-size: 11px; font-style: bold;"><strong>
+                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
                                                                     Edward Antonius<br>
                                                                     Creative Producer<br><br></strong></p>
                                                             <p style="font-size:10px;"> WOW's very own creative producer extraordinaire, he has passionately produced/ organized/ managed countless events.</p>
@@ -623,7 +623,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama2" style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-size: 11px; font-style: bold;"><strong>
+                                                            <p class="nama2" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
                                                                     Margaretha Maulani, SE<br>
                                                                     Finance Manager<br><br> </strong></p>
                                                             <p style="font-size:10px;">Dependable for all financial matter, ensuring timely payment and good relationships with suppliers.  She was one of the forerunners of the company.</p>
@@ -705,124 +705,6 @@
 
 
         </div>
-
-        <?php
-        if (isset($_GET['mod']) && $_GET['mod'] == "karir") {
-
-            $nama = addslashes(trim($_POST['name']));
-            $email = addslashes(trim($_POST['email']));
-            //$telp = addslashes(trim($_POST['telphone']));
-            $msg = addslashes(trim($_POST['message']));
-            $email_to = "eko.febriyanto@indosat.com";
-
-            //email process
-            $email_subject = "Career Submission - wow.id";
-
-            $error_message = "";
-
-            $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
-
-            if (!preg_match($email_exp, $email)) {
-
-                $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
-            }
-
-            if (strlen($msg) < 2) {
-
-                $error_message .= 'The Message you entered do not appear to be valid.<br />';
-            }
-
-            if (strlen($error_message) > 0) {
-
-                echo "<script>alert('" . $error_message . "');</script>";
-            } else {
-
-                $email_message = "Form details below.\n\n";
-
-                function clean_string($string) {
-
-                    $bad = array("content-type", "bcc:", "to:", "cc:", "href");
-
-                    return str_replace($bad, "", $string);
-                }
-
-                $email_message .= "Name: " . clean_string($nama) . "\n";
-
-                $email_message .= "Email: " . clean_string($email) . "\n";
-
-                $email_message .= "Message: " . clean_string($msg) . "\n";
-
-                $headers = 'From: ' . $email . "\r\n" .
-                        'Reply-To: ' . $email . "\r\n" .
-                        'X-Mailer: PHP/' . phpversion();
-
-                @mail($email_to, $email_subject, $email_message, $headers);
-
-                //end of email process
-
-                echo "<script>alert('Thank You, Your messages has been sent.')</script>";
-            }
-        }
-
-        if (isset($_GET['mod']) && $_GET['mod'] == "kontak") {
-
-            $nama = addslashes(trim($_POST['name']));
-            $city = addslashes(trim($_POST['city']));
-            $email = addslashes(trim($_POST['email']));
-            //$telp = addslashes(trim($_POST['telphone']));
-            $msg = addslashes(trim($_POST['message']));
-            $email_to = "eko.febriyanto@indosat.com";
-
-            //email process
-            $email_subject = "Contact Submission - wow.id";
-
-            $error_message = "";
-
-            $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
-
-            if (!preg_match($email_exp, $email)) {
-
-                $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
-            }
-
-            if (strlen($msg) < 2) {
-
-                $error_message .= 'The Message you entered do not appear to be valid.<br />';
-            }
-
-            if (strlen($error_message) > 0) {
-
-                echo "<script>alert('" . $error_message . "');</script>";
-            } else {
-
-                $email_message = "Form details below.\n\n";
-
-                function clean_string($string) {
-
-                    $bad = array("content-type", "bcc:", "to:", "cc:", "href");
-
-                    return str_replace($bad, "", $string);
-                }
-
-                $email_message .= "Name: " . clean_string($nama) . "\n";
-                $email_message .= "City: " . clean_string($city) . "\n";
-
-                $email_message .= "Email: " . clean_string($email) . "\n";
-
-                $email_message .= "Message: " . clean_string($msg) . "\n";
-
-                $headers = 'From: ' . $email . "\r\n" .
-                        'Reply-To: ' . $email . "\r\n" .
-                        'X-Mailer: PHP/' . phpversion();
-
-                @mail($email_to, $email_subject, $email_message, $headers);
-
-                //end of email process
-
-                echo "<script>alert('Thank You, Your messages has been sent.')</script>";
-            }
-        }
-        ?>
         <script src="<?php echo INCLUDE_DIR; ?>wow/javascripts/jquery.easing.1.3.js"></script>
         <script src="<?php echo INCLUDE_DIR; ?>wow/javascripts/jquery.animate-enhanced.min.js-"></script>
         <script src="<?php echo INCLUDE_DIR; ?>wow/javascripts/dist/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>

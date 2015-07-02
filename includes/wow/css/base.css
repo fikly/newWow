@@ -25,8 +25,6 @@ body {
     width: 100%;
     margin: 0 auto;
 }
-
-
 .clear {
     width: auto;
 }
@@ -212,7 +210,13 @@ header {
 }
 @media(min-width:768px){
     .main section.page1 .page_container{
-        top: -9% !important;
+        top: 4% !important;
+    }
+}
+
+@media(min-width: 1366px){
+    .main section.page1 .page_container {
+        top: 4% !important;
     }
 }
 
