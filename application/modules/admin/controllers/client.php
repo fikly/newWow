@@ -105,8 +105,8 @@ class client extends MX_Controller {
                 $config['create_thumb'] = FALSE;
                 $config['maintain_ratio'] = TRUE;
                 $config['new_image'] = './images/client/background/risize/';
-                $config['width'] = '200';
-                $config['height'] = '200';
+                $config['width'] = '800';
+                $config['height'] = '400';
 
                 $this->load->library('image_lib', $config);
                 if (!$this->image_lib->resize()) {
@@ -230,8 +230,8 @@ class client extends MX_Controller {
                 $config['create_thumb'] = FALSE;
                 $config['maintain_ratio'] = TRUE;
                 $config['new_image'] = './images/client/background/risize/';
-                $config['width'] = '200';
-                $config['height'] = '200';
+                $config['width'] = '800';
+                $config['height'] = '400';
 
                 $this->load->library('image_lib', $config);
                 if (!$this->image_lib->resize()) {
@@ -243,8 +243,8 @@ class client extends MX_Controller {
                 $isinya = $this->client_m->client_detail($id);
 //                $path = base_url() . 'images/client/background/' . $isinya->background;
 //                $pathRisize = base_url() . 'images/client/background/risize/' . $isinya->background;
-                $path = $_SERVER['DOCUMENT_ROOT'] . '/demo3/images/client/background/' . $isinya->background;
-                $pathRisize = $_SERVER['DOCUMENT_ROOT'] . '/demo3/images/client/background/risize/' . $isinya->background;
+                $path = $_SERVER['DOCUMENT_ROOT'] . '/images/client/background/' . $isinya->background;
+                $pathRisize = $_SERVER['DOCUMENT_ROOT'] . '/images/client/background/risize/' . $isinya->background;
 
                 $this->deleteFiles($path);
                 $this->deleteFilesRisize($pathRisize);
@@ -273,8 +273,8 @@ class client extends MX_Controller {
                 $isinya = $this->client_m->client_detail($id);
 //                $path = base_url() . 'images/client/background/' . $isinya->background;
 //                $pathRisize = base_url() . 'images/client/background/risize/' . $isinya->background;
-                $path = $_SERVER['DOCUMENT_ROOT'] . '/demo3/images/client/background/' . $isinya->background;
-                $pathRisize = $_SERVER['DOCUMENT_ROOT'] . '/demo3/images/client/background/risize/' . $isinya->background;
+                $path = $_SERVER['DOCUMENT_ROOT'] . '/images/client/background/' . $isinya->background;
+                $pathRisize = $_SERVER['DOCUMENT_ROOT'] . '/images/client/background/risize/' . $isinya->background;
 
                 $this->deleteFiles($path);
                 $this->deleteFilesRisize($pathRisize);

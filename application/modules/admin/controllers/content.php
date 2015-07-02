@@ -205,8 +205,8 @@ class Content extends MX_Controller {
                 $isinya = $this->content_m->content_detail($id);
 //                $path = base_url() . 'images/client/background/' . $isinya->background;
 //                $pathRisize = base_url() . 'images/client/background/risize/' . $isinya->background;
-                $path = $_SERVER['DOCUMENT_ROOT'] . '/demo3/images/client/content/' . $isinya->img_content;
-                $pathRisize = $_SERVER['DOCUMENT_ROOT'] . '/demo3/images/client/content/risize/' . $isinya->img_content;
+                $path = $_SERVER['DOCUMENT_ROOT'] . '/images/client/content/' . $isinya->img_content;
+                $pathRisize = $_SERVER['DOCUMENT_ROOT'] . '/images/client/content/risize/' . $isinya->img_content;
 
                 $this->deleteFiles($path);
                 $this->deleteFilesRisize($pathRisize);
@@ -292,8 +292,8 @@ class Content extends MX_Controller {
                 $config['create_thumb'] = FALSE;
                 $config['maintain_ratio'] = TRUE;
                 $config['new_image'] = './images/client/content/risize/';
-                $config['width'] = '200';
-                $config['height'] = '200';
+                $config['width'] = '800';
+                $config['height'] = '400';
 
                 $this->load->library('image_lib', $config);
                 if (!$this->image_lib->resize()) {
@@ -305,8 +305,8 @@ class Content extends MX_Controller {
                 $isinya = $this->content_m->content_detail($id);
 //                $path = base_url() . 'images/client/background/' . $isinya->background;
 //                $pathRisize = base_url() . 'images/client/background/risize/' . $isinya->background;
-                $path = $_SERVER['DOCUMENT_ROOT'] . '/demo3/images/client/content/' . $isinya->img_content;
-                $pathRisize = $_SERVER['DOCUMENT_ROOT'] . '/demo3/images/client/content/risize/' . $isinya->img_content;
+                $path = $_SERVER['DOCUMENT_ROOT'] . '/images/client/content/' . $isinya->img_content;
+                $pathRisize = $_SERVER['DOCUMENT_ROOT'] . '/images/client/content/risize/' . $isinya->img_content;
 
                 $this->deleteFiles($path);
                 $this->deleteFilesRisize($pathRisize);
@@ -336,8 +336,8 @@ class Content extends MX_Controller {
                 $isinya = $this->content_m->content_detail($id);
 //                $path = base_url() . 'images/client/background/' . $isinya->background;
 //                $pathRisize = base_url() . 'images/client/background/risize/' . $isinya->background;
-                $path = $_SERVER['DOCUMENT_ROOT'] . '/demo3/images/client/content/' . $isinya->img_content;
-                $pathRisize = $_SERVER['DOCUMENT_ROOT'] . '/demo3/images/client/content/risize/' . $isinya->img_content;
+                $path = $_SERVER['DOCUMENT_ROOT'] . '/images/client/content/' . $isinya->img_content;
+                $pathRisize = $_SERVER['DOCUMENT_ROOT'] . '/images/client/content/risize/' . $isinya->img_content;
 
                 $this->deleteFiles($path);
                 $this->deleteFilesRisize($pathRisize);

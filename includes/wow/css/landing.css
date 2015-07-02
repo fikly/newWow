@@ -13,6 +13,7 @@ body{
     width: 100%;
     display: inline-block;
     float: left;
+    background-repeat: no-repeat;
     position: relative;
 }
 .content-slide .mobile img{
@@ -44,15 +45,15 @@ body{
 }
 .slide-1{
     background-image: url(../static/images/first-slide/background.png);
-    background-size: cover;
+    background-size: contain;
 }
 .slide-2{
     background-image: url(../static/images/second-slide/back.png);
-    background-size: cover;
+    background-size: contain;
 }
 .slide-3{
     background-image: url(../static/images/third-slide/back.png);
-    background-size: cover;
+    background-size: contain;
 }
 .img-wow{
     position: absolute;
@@ -62,12 +63,15 @@ body{
 @media(max-width:900px){
     .slide-1{
         background-image: url(../static/images/first-slide/mobile/back.png);
+        background-size: cover;
     }
     .slide-2{
         background-image: url(../static/images/second-slide/mobile/back.png);
+        background-size: cover;
     }
     .slide-3{
         background-image: url(../static/images/third-slide/mobile/back.png);
+        background-size: cover;
     }
     .content-slide .web{
         display: none;
@@ -81,8 +85,14 @@ body{
         left: 22%;
     }
 }
+@media screen and (max-width:1440px){
+    .img-wow{
+        left: 14%;
+    }
+}
 @media screen and (max-width:1366px){
     .img-wow{
         left: 12%;
     }
 }
+

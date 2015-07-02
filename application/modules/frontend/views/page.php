@@ -205,7 +205,7 @@
                                                         <div class="photo-text col-xs-4">
                                                             <div class="photo-text-middle" onmouseover="changeImage()" onmouseout="changeImageOut()">
                                                                 <img src="<?php echo INCLUDE_DIR; ?>wow/images/about/1.png" class="image" id="imageFirst">
-                                                                <a href="#"><img src="<?php echo INCLUDE_DIR; ?>wow/images/about/hover.png" style="width: 140px;" id="imageHover" class="img-hover"></a>
+                                                                <a href="https://www.youtube.com/watch?v=_PYD9nEbLHg"><img src="<?php echo INCLUDE_DIR; ?>wow/images/about/hover.png" style="width: 140px;" id="imageHover" class="img-hover"></a>
                                                             </div>
                                                         </div>
                                                         <div class="photo-text-headline-box col-xs-4">
@@ -678,7 +678,7 @@
                                     <div class="box-icon-contact">
                                         <div class="box-icon-col-contact">
                                             <a href="https://instagram.com/wow.id" class="icon-twitter"></a>
-                                            <a href="<?php echo INCLUDE_DIR; ?>wow/contact.php" class="icon-email fancybox fancybox.ajax"></a>
+                                            <a href="<?php echo base_url(); ?>email" class="icon-email fancybox fancybox.ajax"></a>
                                         </div>
                                         <div class="box-icon-col-contact">
                                             <a href="<?php echo base_url(); ?>career" class="icon-team fancybox fancybox.ajax"></a>

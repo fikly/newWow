@@ -19,6 +19,7 @@ $route['logout'] = "admin/user/logout";
 $route['welcome'] = "admin/Welcome";
 $route['main'] = "frontend/main/page";
 $route['career'] = "frontend/main/career";
+$route['email'] = "frontend/main/email";
 $route['content/(:num)'] = "frontend/main/content/$1";
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
