@@ -203,8 +203,9 @@
                                                             </div>
                                                         </div>
                                                         <div class="photo-text col-xs-4">
-                                                            <div class="photo-text-middle">
-                                                                <img src="<?php echo INCLUDE_DIR; ?>wow/images/about/1.png" class="image">
+                                                            <div class="photo-text-middle" onmouseover="changeImage()" onmouseout="changeImageOut()">
+                                                                <img src="<?php echo INCLUDE_DIR; ?>wow/images/about/1.png" class="image" id="imageFirst">
+                                                                <a href="#"><img src="<?php echo INCLUDE_DIR; ?>wow/images/about/hover.png" style="width: 140px;" id="imageHover" class="img-hover"></a>
                                                             </div>
                                                         </div>
                                                         <div class="photo-text-headline-box col-xs-4">
@@ -826,12 +827,12 @@
         <script src="<?php echo INCLUDE_DIR; ?>wow/javascripts/jquery.animate-enhanced.min.js-"></script>
         <script src="<?php echo INCLUDE_DIR; ?>wow/javascripts/dist/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
         <script>
-            $(function () {
-                $('#slides').superslides({
-                    hashchange: false,
-                    pagination: false,
-                });
-            });
+                                                                $(function () {
+                                                                    $('#slides').superslides({
+                                                                        hashchange: false,
+                                                                        pagination: false,
+                                                                    });
+                                                                });
         </script>
 
 
@@ -846,6 +847,15 @@
                 $("span.menu-name-5").html("Contact");
 
             });
+            $('#imageHover').hide();
+            function changeImage() {
+                $('#imageHover').show();
+                $('#imageFirst').hide();
+            }
+            function changeImageOut() {
+                $('#imageHover').hide();
+                $('#imageFirst').show();
+            }
         </script>
     </body>
 </html>

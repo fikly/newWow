@@ -51,7 +51,7 @@ and open the template in the editor.
                                 <ul class="dropdown-menu">
                                     <!-- User image -->
                                     <li class="user-header">
-                                        <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
+                                        <img src="<?php echo INCLUDE_DIR; ?>wow/img/logo.png" class="img-circle" alt="User Image" />
                                         <p>
                                             <?php echo $nameuser; ?>
                                         </p>
@@ -97,6 +97,7 @@ and open the template in the editor.
                             </a>
                             <ul class="treeview-menu">
                                 <li><a href="<?php echo base_url(); ?>admin/client/view"><i class="fa fa-circle-o"></i> Client</a></li>
+                                <li><a href="<?php echo base_url(); ?>admin/career/view"><i class="fa fa-circle-o"></i> Career</a></li>
                                 <li><a href="<?php echo base_url(); ?>admin/user/list_view"><i class="fa fa-circle-o"></i> User Management</a></li>
                             </ul>
                         </li>

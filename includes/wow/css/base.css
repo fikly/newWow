@@ -27,17 +27,8 @@ body {
 }
 
 
-.btn {
-    width: 200px;
-    color: rgb(255, 255, 255);
-    border: 4px solid rgb(0, 0, 0);
-    background: rgba(3, 3, 3, 0.75);
-}
 .clear {
     width: auto;
-}
-.btn:hover, .btn:hover {
-    background: #444;
 }
 .btns {
     margin: -60px auto;
