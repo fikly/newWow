@@ -39,6 +39,7 @@ class Main extends MX_Controller {
     public function postcareer() {
         $response = array();
 
+        $position = $this->input->post('position');
         $reg_name = $this->input->post('reg_name');
         $reg_mail = $this->input->post('reg_mail');
         $reg_subj = 'TES';
@@ -52,6 +53,7 @@ class Main extends MX_Controller {
         $inp_mssg .= '<body>';
         $inp_mssg .= 'Message From:<br />';
         $inp_mssg .= $reg_name . '<br />';
+        $inp_mssg .= $position . '<br />';
         $inp_mssg .= $reg_mail . '<br />';
         $inp_mssg .= $reg_phone;
         $inp_mssg .= '</body>';

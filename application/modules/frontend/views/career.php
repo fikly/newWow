@@ -25,7 +25,7 @@
                                 <?php
                                 foreach ($careerList->result() as $cl) {
                                     ?>
-                                    <option value="<?php echo $cl->id_career ?>"><?php echo $cl->posisi ?></option>
+                                    <option value="<?php echo $cl->posisi ?>"><?php echo $cl->posisi ?></option>
                                     <?php
                                 }
                                 ?>
