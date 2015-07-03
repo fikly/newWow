@@ -1681,7 +1681,7 @@ $(document).keydown(function (e) {
 });
 
 
-function toRight(e) {
+function toRight() {
     para.closerRight();
     e.preventDefault();
 }

@@ -205,7 +205,7 @@
                                                         <div class="photo-text col-xs-4">
                                                             <div class="photo-text-middle" onmouseover="changeImage()" onmouseout="changeImageOut()">
                                                                 <img src="<?php echo INCLUDE_DIR; ?>wow/images/about/1.png" class="image" id="imageFirst">
-                                                                <a href="https://www.youtube.com/watch?v=_PYD9nEbLHg"><img src="<?php echo INCLUDE_DIR; ?>wow/images/about/hover.png" style="width: 140px;" id="imageHover" class="img-hover"></a>
+                                                                <a target="_blank" href="https://www.youtube.com/watch?v=_PYD9nEbLHg"><img src="<?php echo INCLUDE_DIR; ?>wow/images/about/hover.png" style="width: 140px;" id="imageHover" class="img-hover"></a>
                                                             </div>
                                                         </div>
                                                         <div class="photo-text-headline-box col-xs-4">
