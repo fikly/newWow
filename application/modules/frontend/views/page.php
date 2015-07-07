@@ -203,9 +203,8 @@
                                                             </div>
                                                         </div>
                                                         <div class="photo-text col-xs-4">
-                                                            <div class="photo-text-middle" onmouseover="changeImage()" onmouseout="changeImageOut()">
-                                                                <img src="<?php echo INCLUDE_DIR; ?>wow/images/about/1.png" class="image" id="imageFirst">
-                                                                <a target="_blank" href="https://www.youtube.com/watch?v=_PYD9nEbLHg"><img src="<?php echo INCLUDE_DIR; ?>wow/images/about/hover.png" style="width: 140px;" id="imageHover" class="img-hover"></a>
+                                                            <div class="photo-text-middle">
+                                                                <a target="_blank" href="https://www.youtube.com/watch?v=4zHNsis7Eok"><img src="<?php echo INCLUDE_DIR; ?>wow/images/about/hover.png" style="width: 140px;height:140px" class="image img-video"></a>
                                                             </div>
                                                         </div>
                                                         <div class="photo-text-headline-box col-xs-4">
@@ -330,11 +329,11 @@
 
 
                 <section class="page3">
-
-                    <div class="page_container">
-                        <div class="top-abs">
+<div class="top-abs">
                             <a href="#" class="nav-top 2"></a>
                         </div>
+                    <div class="page_container">
+                        
 
 
                         <div id="bg">
@@ -524,6 +523,39 @@
                                                                     New Business Development Manager<br><br></strong></p>
                                                             <p style="font-size:10px;">Having bulk of hobbies such as wayang, ancient stories and soccer, he was a former Associate Creative Director that turns out to meeting new clients as his new preoccupation</p>
 
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="photo-text-headline-box">
+                                                        <div class="photo-text-middle">
+                                                            <h1>THE TEAM</h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="gallery__item-team">
+                                                <div class="content-over">
+
+
+
+
+                                                    <div class="photo">
+                                                        <img src="<?php echo INCLUDE_DIR; ?>wow/images/marvin.png" class="gallery__img img-team2" alt=""  width="390" />
+                                                    </div>
+                                                    <div class="photo-text">
+                                                        <div class="photo-text-middle">
+
+                                                            <p class="nama" style="font-family: dinPro; font-size: 11px; font-style: bold;"> <strong>
+                                                                    MARVIN JULIAN<br>
+                                                                    CREATIVE DIRECTOR<br><br></strong></p>
+                                                            <p style="font-size:10px;">
+                                                                A CREATIVE THINKER IS PASSIONATE ABOUT
+                                                                POP CULTURE, TV SHOWS, AND ALL THINGS
+                                                                PRETTY. A PROFOUNDLY HONEST, OPEN-MINDED
+                                                                AND PROGRESSIVE CREATIVE WHO ALWAYS
+                                                                TRIES TO ELIMINATE ALL BOXES INSTEAD OF
+                                                                THINKING OUTSIDE OF ONE.</p>
 
                                                         </div>
                                                     </div>
@@ -739,5 +771,15 @@
                 $('#imageFirst').show();
             }
         </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64781129-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
     </body>
 </html>

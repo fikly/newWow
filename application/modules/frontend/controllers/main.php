@@ -69,15 +69,15 @@ class Main extends MX_Controller {
         $inp_mssg .= '</table>';
 
         if ($reg_name != "" && $reg_mail != "" && $reg_phone != "" && $posisi != "") {
-            $this->email->to('fiklyabdullah@gmail.com');
+            $this->email->to('hrd@wow.id');
             $this->email->subject($reg_subj);
             $this->email->message($inp_mssg);
             if ($this->email->send()) {
                 $response['status'] = 1;
-                $response['message'] = "Your message has been sent, well get in touch with you shortly.";
+                $response['message'] = "Your message has been sent, well get in touch with you shortly";
             } else {
                 $response['status'] = 0;
-                $response['message'] = "An error occured, your message cannot be sent, please try again.";
+                $response['message'] = $this->email->print_debugger();
             }
         } else {
             $response['status'] = 0;
@@ -123,7 +123,7 @@ class Main extends MX_Controller {
         $inp_mssg .= '</table>';
 
         if ($reg_name != "" && $reg_mail != "" && $reg_city != "" && $reg_message != "") {
-            $this->email->to('fiklyabdullah@gmail.com');
+            $this->email->to('didie@wow.id');
             $this->email->subject($reg_subj);
             $this->email->message($inp_mssg);
             if ($this->email->send()) {

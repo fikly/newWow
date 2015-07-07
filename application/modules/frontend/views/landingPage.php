@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,6 +8,11 @@
 
         <!-- Practical proven viewport for better mobile experience -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <meta name="title" content="WOW Communication - Creative Agency + Brand Activation" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <meta name="description" content="One stop full services Advertising Agency which implement 360 communication brand channel with various range of service compliment, ensuring the way of winning to brand success">
+        <meta name="keywords" content="Wow,HTML,One Page Scroll,full services Advertising Agency,Web Profile">
+        <meta name="author" content="Be Next Technology">
 
         <link type="text/css" rel="stylesheet" href="<?php echo INCLUDE_DIR; ?>wow/static/css/parallax.css">
         <link type="text/css" rel="stylesheet" href="<?php echo INCLUDE_DIR; ?>wow/static/css/sample.css">
@@ -18,7 +22,6 @@
         <link rel="stylesheet" type="text/css" href="<?php echo INCLUDE_DIR; ?>wow/css/landing.css" />
 
         <script type="text/javascript" src="<?php echo INCLUDE_DIR; ?>wow/preload/jquery.js"></script>
-        <script type="text/javascript" src="<?php echo INCLUDE_DIR; ?>wow/preload/royal_preloader.min.js"></script>
         <script type="text/javascript" src="<?php echo INCLUDE_DIR; ?>wow/preload/royal_preloader.min.js"></script>
         <script type="text/javascript">
             Royal_Preloader.config({
@@ -73,8 +76,11 @@
             <div id="tropi">
                 <div class="content-slide slide-3">
                     <div class="web">
-                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/third-slide/middle.png" style="position: absolute;left: 0px;top: 0;" class="img-responsive">
-                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/third-slide/front.png" class="img-wow img-responsive">
+                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/third-slide/middle.png" style="position: absolute;left: 0px;top: 0;width:100%" class="img-responsive">
+                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/third-slide/front.png" class="img-responsive" style="width:100%">
+                        <div class=box-logo>
+                             
+                        </div>
                     </div>
                     <div class="mobile">
                         <img src="<?php echo INCLUDE_DIR ?>wow/static/images/third-slide/mobile/middle.png" class="img-responsive">
@@ -96,7 +102,24 @@
             <script type="text/javascript" src="<?php echo INCLUDE_DIR; ?>wow/static/js/sample.js"></script>
 
             <script>
-
+		$(function(){
+			var w = $('html').innerWidth();
+			$(window).load(function(){
+				if(w < 960){
+					document.location.href="<?php echo base_url() ?>main";
+				}
+			});	
+		});
             </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64781129-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
     </body>
 </html>

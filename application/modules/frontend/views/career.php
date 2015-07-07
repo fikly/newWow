@@ -7,7 +7,6 @@
                     ?>
                     <div class="col-md-4 content-career">
                         <h2><?php echo $c->posisi ?></h2>
-                        <h3>Tanggung jawab</h3>
                         <p><?php echo $c->description ?></p>
                     </div>
                     <?php
@@ -15,7 +14,7 @@
                 ?>
             </div>
             <div class="col-md-3 content-career border-left">
-                <h2>Posisi 3 Disini</h2>
+                <h2>Isi data diri anda</h2>
                 <form action="<?php echo base_url() ?>frontend/main/postcareer" target="prc_box" method="post" id="form-contact" autocomplete="off" role="form" class="form-horizontal">
                     <div class="row">
                         <div class="col-md-12">

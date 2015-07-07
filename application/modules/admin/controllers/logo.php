@@ -121,8 +121,8 @@ class logo extends MX_Controller {
                 $config['create_thumb'] = FALSE;
                 $config['maintain_ratio'] = TRUE;
                 $config['new_image'] = './images/client/logo/risize/';
-                $config['width'] = '800';
-                $config['height'] = '400';
+                $config['width'] = '200';
+                $config['height'] = '200';
 
                 $this->load->library('image_lib', $config);
                 if (!$this->image_lib->resize()) {

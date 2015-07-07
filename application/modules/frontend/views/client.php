@@ -31,7 +31,7 @@ foreach ($getClient as $gc) {
                             <?php if ($cc['video_content'] == "") { ?>
                                 <img src="<?php echo IMAGES_DIR; ?>client/content/risize/<?php echo $cc['img_content'] ?>" class="img-responsive" style="width: 100%;height: auto;margin: 0px !important;"/>
                             <?php } else { ?>
-                                <iframe style="left:0px;" src="<?php echo $cc['video_content'] ?>" frameborder="0" allowfullscreen></iframe>
+                                <iframe style="left:0px;" class="video-client" src="<?php echo $cc['video_content'] ?>" frameborder="0" allowfullscreen></iframe>
                             <?php } ?>
                         </div>
                         <?php

@@ -30,7 +30,8 @@ if ($detail) {
         <div class="form-group <?php echo (form_error('caption')) ? 'has-error' : '' ?>">
             <label class="col-sm-2 control-label">Caption</label>
             <div class="col-sm-3">
-                <input name="caption" autocomplete="off" type="text" class="form-control input-sm" placeholder="Caption" value="<?php echo $caption ?>"/>  
+                <textarea name="caption" autocomplete="off" class="form-control input-sm"><?php echo $caption ?></textarea>
+                
             </div>
         </div>
 
