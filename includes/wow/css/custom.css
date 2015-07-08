@@ -121,7 +121,7 @@
 .gallery__item-team .content-over .photo-text-headline-box .photo-text-middle .title{}
 
 .gallery__item-team .content-over .photo-text .photo-text-middle .nama {
-    font-size: 18px !important;
+    font-size: 11px !important;
 }
 
 .nav-top{
@@ -211,7 +211,7 @@
 .logo-client:hover{
     opacity: 0.2 !important;
 }
-@media(min-height:737px){
+@media(min-width:700px){
     .txt-bottom-home{
         display: block;
     }
@@ -943,6 +943,11 @@
 }
 
 @media screen and (max-width:320px){
+    .main section.page1 .page_container {
+        width: 130% !important;
+        top: 130px !important;
+        right: 48px !important;
+    }
     .img-responsive{
         max-width: 70%;
         margin: 0% 15% !important;
@@ -951,12 +956,11 @@
         top: -15% !important;
     }
     .logo5{
-        right: 105px !important;
-        top: 170px !important;
+        right: 151px !important;
+        top: 195px !important;
     }
     .logo5 h3{
         font-size: 20px;
-        margin-bottom: 10px;
     }
     .logo5 .brand-logo{
         font-size: 11px;
@@ -1243,6 +1247,9 @@
 }
 .panel-heading, .panel-footer{
     background-color: transparent !important;
+}
+.play-video:hover{
+    opacity: 0.5;
 }
 body{
     font-family: dinPro !important;

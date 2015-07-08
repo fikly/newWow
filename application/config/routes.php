@@ -3,7 +3,7 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-$route['default_controller'] = "frontend/main/index";
+$route['default_controller'] = "frontend/main/page";
 $route['404_override'] = "home/c_home/e404";
 $route['contact'] = "frontend/contact";
 

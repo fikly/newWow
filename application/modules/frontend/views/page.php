@@ -155,7 +155,7 @@
                             <span class="brand-logo">Brand Activation</span>
                             <h2>agency</h2>
                         </div>
-                        <span class="txt-bottom-home animated fadeIn" id="kelima">
+                        <span class="txt-bottom-home animated fadeIn" id="kelima" style="text-align: left !important;">
                             <font face="dinPro" size="2pt" color="#26b571">One stop full services Advertising Agency which implement 360 communication brand channel with various range of service compliment, ensuring the way of winning to brand success</font>
                         </span>
                     </div>
@@ -204,7 +204,7 @@
                                                         </div>
                                                         <div class="photo-text col-xs-4">
                                                             <div class="photo-text-middle">
-                                                                <a href="<?php echo base_url(); ?>about" class="fancybox fancybox.ajax"><img src="<?php echo INCLUDE_DIR; ?>wow/images/about/hover.png" style="width: 140px;height:140px" class="image img-video"></a>
+                                                                <a href="<?php echo base_url(); ?>about" class="fancybox fancybox.ajax play-video"><img src="<?php echo INCLUDE_DIR; ?>wow/images/about/hover.png" style="width: 140px;height:140px" class="image img-video"></a>
                                                             </div>
                                                         </div>
                                                         <div class="photo-text-headline-box col-xs-4">
@@ -372,11 +372,12 @@
                             </nav>
                         </div>
 
+
                         <div class="bottom-abs">
                             <a href="#" class="nav-bottom 4"></a>
                         </div>
-
                     </div>
+
                 </section>
 
 
@@ -420,9 +421,9 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
+                                                            <p class="nama" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
                                                                     Lisa Mariana, SH<br>
-                                                                    President/Creative Director<br><br></strong></p>
+                                                                    President Director/Executive Creative Director<br><br></strong></p>
                                                             <p style="font-size:10px;">Passionated singer who keen to pursue her talent in advertising, repeatedly sparkled invincible creative ideas in response to the understanding of consumers insight.</p>
 
                                                         </div>
@@ -445,7 +446,7 @@
                                                         <div class="photo-text-middle">
 
 
-                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
+                                                            <p class="nama" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
                                                                     Ir. Aji Nugroho, MBA<br>
                                                                     General Manager Operation<br><br></strong></p>
                                                             <p style="font-size:10px;">Geek that has strong willing and gears to go one step further than anyone else into the insight of consumers and find the gap to fill for the creative people to explore.</p>
@@ -491,7 +492,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
+                                                            <p class="nama" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
                                                                     Edah Budiman<br>
                                                                     General Manager Media and Finance<br><br></strong></p>
                                                             <p style="font-size:10px;">Strong relationship with media people from various kind of media in most cities in Indonesia have given her the â€œreal bargainâ€�.  All that will be rewarded back for the benefit of the clients.</p>
@@ -518,7 +519,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
+                                                            <p class="nama" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
                                                                     Drs. Didacus Sunoto<br>
                                                                     New Business Development Manager<br><br></strong></p>
                                                             <p style="font-size:10px;">Having bulk of hobbies such as wayang, ancient stories and soccer, he was a former Associate Creative Director that turns out to meeting new clients as his new preoccupation</p>
@@ -546,7 +547,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"> <strong>
+                                                            <p class="nama" style="font-family: dinPro; font-size: 11px; font-style: bold;"> <strong>
                                                                     MARVIN JULIAN<br>
                                                                     CREATIVE DIRECTOR<br><br></strong></p>
                                                             <p style="font-size:10px;">
@@ -579,7 +580,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"> <strong>
+                                                            <p class="nama" style="font-family: dinPro; font-size: 11px; font-style: bold;"> <strong>
                                                                     Udi Husodo<br>
                                                                     Associate Creative Director<br><br></strong></p>
                                                             <p style="font-size:10px;">&nbsp;&nbsp;&nbsp;Deep. Bold. Earthy. Loves Instagram too.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -655,7 +656,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
+                                                            <p class="nama2" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
                                                                     Margaretha Maulani, SE<br>
                                                                     Finance Manager<br><br> </strong></p>
                                                             <p style="font-size:10px;">Dependable for all financial matter, ensuring timely payment and good relationships with suppliers.  She was one of the forerunners of the company.</p>
