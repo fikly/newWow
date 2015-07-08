@@ -224,31 +224,43 @@ header {
         width: 67%;
     }
 }
-@media(min-width: 2560px){
+@media(max-width: 2560px){
     .main section.page1 .page_container {
         top: 21% !important;
     }
+    @-moz-document url-prefix(){
+        .main section.page1 .page_container {
+            width: 745px;
+        }
+        .logo5{
+            right: -123px !important;
+            top: 192px !important;
+        }
+        .txt-bottom-home {
+            top: 252px !important;
+        }
+    }
 }
 @media(max-width: 1280px){
-   .main section.page1 .page_container {
-       width: 924px;
-       top: 43px !important;
-   }
+    .main section.page1 .page_container {
+        width: 924px;
+        top: 43px !important;
+    }
 }
 @media(max-width: 1024px){
     .main section.page1 .page_container {
-      width: 820px;
+        width: 820px;
     }
 }
 @media (max-height: 600px) and (max-width: 1024px){
     .main section.page1 .page_container {
-      width: 74% !important;
+        width: 74% !important;
     }
 }
 @media(max-width: 1020px){
-   .main section.page1 .page_container {
-       width: 100%;
-   }
+    .main section.page1 .page_container {
+        width: 100%;
+    }
 }
 @keyframes slidein {
     from {

@@ -542,7 +542,7 @@
 
 
                                                     <div class="photo">
-                                                        <img src="<?php echo INCLUDE_DIR; ?>wow/images/marvin.png" class="gallery__img img-team2" alt=""  width="390" />
+                                                        <img src="<?php echo INCLUDE_DIR; ?>wow/images/marvin.png" class="gallery__img img-team2 img-marvin" alt=""  width="390" />
                                                     </div>
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">

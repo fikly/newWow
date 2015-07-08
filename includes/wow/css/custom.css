@@ -203,6 +203,8 @@
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     transition: all .2s;
+    position: relative;
+    top: -80px;
 }
 .video-client{
     height:auto;
@@ -452,6 +454,10 @@
     }
 }
 @media screen and (max-width:414px){
+    .logo-client{
+        left: 16px;
+        top: -80px;
+    }
     .small{
         width: 250px;
         top: 72px;
@@ -658,6 +664,10 @@
         top: 72px;
         position: absolute;
     }
+    .logo-client{
+        left: 16px;
+        top: -80px;
+    }
     .logo5{
         right: 90px !important;
         top: 260px !important;
@@ -700,6 +710,11 @@
         margin-top: -55px;
         width: 200px;
         height: 395px;
+    }
+
+    .gallery__item-team .content-over .photo .img-team2 .img-marvin{
+        width: 150px;
+        left: 95px;
     }
 
     .gallery__item-about .content-over .photo-text-middle .caption1{
@@ -830,6 +845,10 @@
         right: 80px !important;
         top: 270px !important;
     }
+    .logo-client{
+        left: 16px;
+        top: -80px;
+    }
     .gallery__item-about .content-over .photo-text-headline-box .head-title{
         left: 10px;
         display: block;
@@ -846,7 +865,6 @@
     .gallery__item-about .content-over .photo-text-middle .image2 {
         margin-left: -534px;
     }
-
     .gallery__item-about .content-over .photo-text-middle .caption1{
         left: -472px;
     }
@@ -939,7 +957,6 @@
         top: 384px;
         font-size:11px !important;
     }
-
 }
 
 @media screen and (max-width:320px){
@@ -951,6 +968,10 @@
     .img-responsive{
         max-width: 70%;
         margin: 0% 15% !important;
+    }
+    .logo-client{
+        left: 16px;
+        top: -65px;
     }
     .page1{
         top: -15% !important;
@@ -1113,6 +1134,10 @@
         position: relative;
     }
 
+    .gallery__item-team .content-over .photo .img-team2.img-marvin{
+        width: 120px;
+    }
+
     .gallery__item-team .content-over .photo-text .photo-text-middle .nama {
         display: block;
         position: absolute;
@@ -1221,6 +1246,7 @@
 .content-career select{
     -webkit-appearance: none;
     -moz-appearance: none;
+    appearance: none;
     background-image: url(../img/nav-bottom-hover.png);
     background-size: auto 50%;
     background-position: right;
