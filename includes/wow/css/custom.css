@@ -211,7 +211,7 @@
 .logo-client:hover{
     opacity: 0.2 !important;
 }
-@media(min-height:700px){
+@media(min-height:737px){
     .txt-bottom-home{
         display: block;
     }

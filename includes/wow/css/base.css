@@ -212,43 +212,43 @@ header {
         top: 4% !important;
     }
 }
+@media(min-width: 1020px){
+    .main section.page1 .page_container {
+        width: 100% !important;
+    }
+}
+@media(min-width: 1024px){
+    .main section.page1 .page_container {
+        width: 820px !important;
+    }
+}
+@media (max-height: 600px) and (min-width: 1024px){
+    .main section.page1 .page_container {
+        width: 74% !important;
+    }
+}
+@media(min-width: 1280px){
+    .main section.page1 .page_container {
+        width: 924px !important;
+        top: 43px !important;
+    }
+}
 @media(min-width: 1350px){
     .main section.page1 .page_container {
         top: -10% !important;
-        width: 100%;
+        width: 100% !important;
     }
 }
 @media(min-width: 1440px){
     .main section.page1 .page_container {
         top: 5% !important;
-        width: 67%;
+        width: 67% !important;
     }
 }
 @media(min-width: 2560px){
     .main section.page1 .page_container {
         top: 21% !important;
     }
-}
-@media(max-width: 1280px){
-   .main section.page1 .page_container {
-       width: 924px;
-       top: 43px !important;
-   }
-}
-@media(max-width: 1024px){
-    .main section.page1 .page_container {
-      width: 820px;
-    }
-}
-@media (max-height: 600px) and (max-width: 1024px){
-    .main section.page1 .page_container {
-      width: 74% !important;
-    }
-}
-@media(max-width: 1020px){
-   .main section.page1 .page_container {
-       width: 100%;
-   }
 }
 @keyframes slidein {
     from {
