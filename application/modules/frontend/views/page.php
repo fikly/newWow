@@ -35,8 +35,8 @@
         <link rel="stylesheet" href="<?php echo INCLUDE_DIR; ?>wow/javascripts/dist/stylesheets/superslides.css">
 
         <!-- favicon -->
-        <link rel="shortcut icon" href="<?php echo INCLUDE_DIR; ?>wow/img/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="<?php echo INCLUDE_DIR; ?>wow/img/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="<?php echo INCLUDE_DIR; ?>wow/static/images/third-slide/logo.png" type="image/x-icon">
+        <link rel="icon" href="<?php echo INCLUDE_DIR; ?>wow/static/images/third-slide/logo.png" type="image/x-icon">
 
 
         <script src="<?php echo INCLUDE_DIR; ?>wow/js/jquery-2.1.1.min.js"></script>
@@ -204,7 +204,7 @@
                                                         </div>
                                                         <div class="photo-text col-xs-4">
                                                             <div class="photo-text-middle">
-                                                                <a target="_blank" href="https://www.youtube.com/watch?v=4zHNsis7Eok"><img src="<?php echo INCLUDE_DIR; ?>wow/images/about/hover.png" style="width: 140px;height:140px" class="image img-video"></a>
+                                                                <a href="<?php echo base_url(); ?>about" class="fancybox fancybox.ajax"><img src="<?php echo INCLUDE_DIR; ?>wow/images/about/hover.png" style="width: 140px;height:140px" class="image img-video"></a>
                                                             </div>
                                                         </div>
                                                         <div class="photo-text-headline-box col-xs-4">
@@ -329,11 +329,11 @@
 
 
                 <section class="page3">
-<div class="top-abs">
-                            <a href="#" class="nav-top 2"></a>
-                        </div>
+                    <div class="top-abs">
+                        <a href="#" class="nav-top 2"></a>
+                    </div>
                     <div class="page_container">
-                        
+
 
 
                         <div id="bg">
@@ -351,9 +351,9 @@
                                         <div class="container" style="left:30%">
                                             <div class="logo-client">
                                                 <h1>
-                                                    <a style="background: url(<?php echo IMAGES_DIR; ?>client/logo/<?php echo $vc['logo'] ?>)  no-repeat;
+                                                    <a style="background: url(<?php echo IMAGES_DIR; ?>client/logo/risize/<?php echo $vc['logo'] ?>)  no-repeat;
                                                        width: 200px;
-                                                       height: 80px;
+                                                       height: 200px;
                                                        display: inline-block;" href="<?php echo base_url(); ?>content/<?php echo $vc['id_client'] ?>" class="img-client fancybox fancybox.ajax"></a>
                                                 </h1>
                                             </div>
@@ -420,7 +420,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama" style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-size: 11px; font-style: bold;"><strong>
+                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
                                                                     Lisa Mariana, SH<br>
                                                                     President/Creative Director<br><br></strong></p>
                                                             <p style="font-size:10px;">Passionated singer who keen to pursue her talent in advertising, repeatedly sparkled invincible creative ideas in response to the understanding of consumers insight.</p>
@@ -445,7 +445,7 @@
                                                         <div class="photo-text-middle">
 
 
-                                                            <p class="nama" style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-size: 11px; font-style: bold;"><strong>
+                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
                                                                     Ir. Aji Nugroho, MBA<br>
                                                                     General Manager Operation<br><br></strong></p>
                                                             <p style="font-size:10px;">Geek that has strong willing and gears to go one step further than anyone else into the insight of consumers and find the gap to fill for the creative people to explore.</p>
@@ -468,7 +468,7 @@
                                                     </div>
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
-                                                            <p class="nama3" style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-size: 11px; font-style: bold;"><strong>
+                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
                                                                     Ajeng Nugrahani, Ssi<br>
                                                                     Account Manager<br><br></strong></p>
                                                             <p style="font-size:10px;">Put forward sincerity and speed of response is her main aptitude, with her great socializing ability, she could perform as a good buddy as well as assistant for clients at once.</p>
@@ -491,7 +491,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama" style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-size: 11px; font-style: bold;"><strong>
+                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
                                                                     Edah Budiman<br>
                                                                     General Manager Media and Finance<br><br></strong></p>
                                                             <p style="font-size:10px;">Strong relationship with media people from various kind of media in most cities in Indonesia have given her the â€œreal bargainâ€�.  All that will be rewarded back for the benefit of the clients.</p>
@@ -518,7 +518,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama" style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-size: 11px; font-style: bold;"><strong>
+                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
                                                                     Drs. Didacus Sunoto<br>
                                                                     New Business Development Manager<br><br></strong></p>
                                                             <p style="font-size:10px;">Having bulk of hobbies such as wayang, ancient stories and soccer, he was a former Associate Creative Director that turns out to meeting new clients as his new preoccupation</p>
@@ -546,7 +546,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama" style="font-family: dinPro; font-size: 11px; font-style: bold;"> <strong>
+                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"> <strong>
                                                                     MARVIN JULIAN<br>
                                                                     CREATIVE DIRECTOR<br><br></strong></p>
                                                             <p style="font-size:10px;">
@@ -579,7 +579,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama" style="font-family: dinPro; font-size: 11px; font-style: bold;"> <strong>
+                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"> <strong>
                                                                     Udi Husodo<br>
                                                                     Associate Creative Director<br><br></strong></p>
                                                             <p style="font-size:10px;">&nbsp;&nbsp;&nbsp;Deep. Bold. Earthy. Loves Instagram too.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -655,7 +655,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama2" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
+                                                            <p class="nama3" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
                                                                     Margaretha Maulani, SE<br>
                                                                     Finance Manager<br><br> </strong></p>
                                                             <p style="font-size:10px;">Dependable for all financial matter, ensuring timely payment and good relationships with suppliers.  She was one of the forerunners of the company.</p>
@@ -709,7 +709,7 @@
                                 <div class="pad-footer">
                                     <div class="box-icon-contact">
                                         <div class="box-icon-col-contact">
-                                            <a href="https://instagram.com/wow.id" class="icon-twitter"></a>
+                                            <a target="_blank" href="https://instagram.com/wow.id" class="icon-twitter"></a>
                                             <a href="<?php echo base_url(); ?>email" class="icon-email fancybox fancybox.ajax"></a>
                                         </div>
                                         <div class="box-icon-col-contact">
@@ -717,7 +717,7 @@
                                             <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3966.7059797968277!2d106.7748079!3d-6.170109999999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6524bc162df%3A0xbc17cd0375b590c5!2sJl.+Komp.+Graha+Indah+Green+Ville+Blok+Ax+No.4%2C+Kebonjeruk%2C+Kota+Jak+Bar.%2C+Daerah+Khusus+Ibukota+Jakarta+11510!5e0!3m2!1sid!2sid!4v1420601008780" class="icon-map fancybox fancybox.iframe"></a>
                                         </div>
                                         <div class="box-icon-col-contact">
-                                            <a href="https://www.facebook.com/Wow.Komunindo" class="icon-fb"></a>
+                                            <a target="_blank" href="https://www.facebook.com/Wow.Komunindo" class="icon-fb"></a>
                                             <a href="<?php echo base_url(); ?>contact" class="icon-phone fancybox fancybox.ajax"></a>
                                         </div>
                                     </div>
@@ -741,12 +741,12 @@
         <script src="<?php echo INCLUDE_DIR; ?>wow/javascripts/jquery.animate-enhanced.min.js-"></script>
         <script src="<?php echo INCLUDE_DIR; ?>wow/javascripts/dist/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
         <script>
-                                                                $(function () {
-                                                                    $('#slides').superslides({
-                                                                        hashchange: false,
-                                                                        pagination: false,
-                                                                    });
-                                                                });
+            $(function () {
+                $('#slides').superslides({
+                    hashchange: false,
+                    pagination: false,
+                });
+            });
         </script>
 
 
@@ -771,15 +771,22 @@
                 $('#imageFirst').show();
             }
         </script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-64781129-1', 'auto');
-  ga('send', 'pageview');
+            ga('create', 'UA-64781129-1', 'auto');
+            ga('send', 'pageview');
 
-</script>
+        </script>
     </body>
 </html>

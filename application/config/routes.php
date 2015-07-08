@@ -18,6 +18,7 @@ $route['admin/create'] = "admin/user/create";
 $route['logout'] = "admin/user/logout";
 $route['welcome'] = "admin/Welcome";
 $route['main'] = "frontend/main/page";
+$route['about'] = "frontend/main/about";
 $route['career'] = "frontend/main/career";
 $route['email'] = "frontend/main/email";
 $route['content/(:num)'] = "frontend/main/content/$1";

@@ -44,16 +44,19 @@ body{
     opacity: 0.5;
 }
 .slide-1{
-    background-image: url(../static/images/first-slide/background.png);
-    background-size: contain;
+    background-image: url(../static/images/back.png);
+    background-size: 300% 100%;
+    background-position: left;
 }
 .slide-2{
-    background-image: url(../static/images/second-slide/back.png);
-    background-size: contain;
+    background-image: url(../static/images/back.png);
+    background-size: 300% 100%;
+    background-position: center;
 }
 .slide-3{
-    background-image: url(../static/images/third-slide/back.png);
-    background-size: 100% auto;
+    background-image: url(../static/images/back.png);
+    background-size: 300% 100%;
+    background-position: right;
 }
 .box-logo{
     position:absolute;
@@ -87,7 +90,7 @@ body{
     }
 }
 @media(max-width:1024px) and (max-height:600px){
-     .box-logo{
-     	background-size: 23% auto;
-     }
+    .box-logo{
+        background-size: 23% auto;
+    }
 }

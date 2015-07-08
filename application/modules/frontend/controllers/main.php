@@ -90,6 +90,10 @@ class Main extends MX_Controller {
         $this->load->view("frontend/email");
     }
 
+    public function about() {
+        $this->load->view("frontend/about");
+    }
+
     public function postemail() {
         $response = array();
 

@@ -240,26 +240,35 @@
     color: #a9a8a8;
 }
 @media screen and (max-width: 1280px){
-   .logo5{
-       right: -106px !important;
-       top: 201px !important;
-   }
+    .logo5{
+        right: -106px !important;
+        top: 201px !important;
+    }
 
-   .logo5 h3{
-       font-size: 61px;
-   }
+    .logo5 h3{
+        font-size: 61px;
+    }
 
-   .logo5 .brand-logo{
-       font-size: 34px;
-   }
+    .logo5 .brand-logo{
+        font-size: 34px;
+    }
 
-   .logo5 h2{
-       font-size: 82px;
-   }
+    .logo5 h2{
+        font-size: 82px;
+    }
 
-   .txt-bottom-home {
-       top: 508px;
-   }
+    .txt-bottom-home {
+        top: 269px;
+        left: -705px;
+        width: 298px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .txt-bottom-home{
+        top: 354px;
+        left: -632px;
+        width: 299px;
+    }
 }
 @media screen and (max-width: 1060px){
     .logo5 h3{
@@ -275,6 +284,14 @@
 @media screen and (max-width: 1024px){
     .gallery__item-about .content-over .photo-text-middle {
         width: 355px;
+    }
+    .logo5 {
+        right: -42px !important;
+        top: 221px !important;
+    }
+    .txt-bottom-home {
+        top: 277px;
+        left: -621px;
     }
 }
 @media (min-width:991px){
@@ -1151,6 +1168,7 @@
 }
 .content-career{
     min-height: 500px !important;
+    position: relative;
 }
 .col-md-9 .content-career{
     border-right: 2px solid #d9d9d9;
@@ -1185,6 +1203,7 @@
     border-color: #0dd185;
     width: auto;
     margin-top: 10px;
+    float: right;
 }
 .content-career h4{
     color :#0dd185;
@@ -1270,14 +1289,15 @@ body{
 }
 @media(min-width: 960px) and (max-height: 700px){
     .main section.page1 .page_container {
-        width: 55%;
+        width: 80%;
     }
     .logo5 {
-        right: -115px !important;
-        top: 130px !important;
+        right: -60px !important;
+        top: 203px !important;
     }
     .txt-bottom-home {
-        top: 399px;
+        top: 247px;
         display: block;
+        left: -594px;
     }
 }

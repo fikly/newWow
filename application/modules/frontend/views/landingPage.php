@@ -5,6 +5,8 @@
         <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
 
         <title>WOW Communication - Creative Agency + Brand Activation</title>
+        <link rel="shortcut icon" href="<?php echo INCLUDE_DIR; ?>wow/static/images/third-slide/logo.png" type="image/x-icon">
+        <link rel="icon" href="<?php echo INCLUDE_DIR; ?>wow/static/images/third-slide/logo.png" type="image/x-icon">
 
         <!-- Practical proven viewport for better mobile experience -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
@@ -45,13 +47,9 @@
             <div id="hi">
                 <div class="content-slide slide-1">
                     <div class="web">
-                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/first-slide/object-1.png" style="position: absolute;left: 0px;top: 0;" class="img-responsive">
-                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/first-slide/front.png" style="position: absolute;left: 0px;top: 0;" class="img-responsive">
+
                     </div>
-                    <div class="mobile">
-                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/first-slide/mobile/middle.png" class="img-responsive">
-                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/first-slide/mobile/front.png" class="img-responsive">
-                    </div>
+
                     <div class="footer-button">
                         <img onclick="toRight()" src="<?php echo INCLUDE_DIR ?>wow/static/images/first-slide/button-next.png">
                     </div>
@@ -61,12 +59,7 @@
             <div id="simple">
                 <div class="content-slide slide-2">
                     <div class="web">
-                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/second-slide/middle.png" style="position: absolute;left: 0px;top: 0;" class="img-responsive">
-                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/second-slide/front.png" style="position: absolute;left: 0px;top: 0;" class="img-responsive">
-                    </div>
-                    <div class="mobile">
-                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/second-slide/mobile/middle.png" class="img-responsive">
-                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/second-slide/mobile/front.png" class="img-responsive">
+
                     </div>
                     <div class="footer-button">
                         <img onclick="toRight()" src="<?php echo INCLUDE_DIR ?>wow/static/images/first-slide/button-next.png">
@@ -76,15 +69,9 @@
             <div id="tropi">
                 <div class="content-slide slide-3">
                     <div class="web">
-                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/third-slide/middle.png" style="position: absolute;left: 0px;top: 0;width:100%" class="img-responsive">
-                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/third-slide/front.png" class="img-responsive" style="width:100%">
                         <div class=box-logo>
-                             
+
                         </div>
-                    </div>
-                    <div class="mobile">
-                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/third-slide/mobile/middle.png" class="img-responsive">
-                        <img src="<?php echo INCLUDE_DIR ?>wow/static/images/third-slide/mobile/front.png" class="img-responsive">
                     </div>
                     <div class="footer-button">
                         <a href="<?php echo base_url() ?>main"><img src="<?php echo INCLUDE_DIR ?>wow/static/images/third-slide/button-enter.png"></a>
@@ -102,24 +89,31 @@
             <script type="text/javascript" src="<?php echo INCLUDE_DIR; ?>wow/static/js/sample.js"></script>
 
             <script>
-		$(function(){
-			var w = $('html').innerWidth();
-			$(window).load(function(){
-				if(w < 960){
-					document.location.href="<?php echo base_url() ?>main";
-				}
-			});	
-		});
+                            $(function () {
+                                var w = $('html').innerWidth();
+                                $(window).load(function () {
+                                    if (w < 960) {
+                                        document.location.href = "<?php echo base_url() ?>main";
+                                    }
+                                });
+                            });
             </script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            <script>
+                (function (i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                    a = s.createElement(o),
+                            m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-64781129-1', 'auto');
-  ga('send', 'pageview');
+                ga('create', 'UA-64781129-1', 'auto');
+                ga('send', 'pageview');
 
-</script>
+            </script>
     </body>
 </html>

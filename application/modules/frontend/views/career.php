@@ -42,9 +42,9 @@
                             <h4>Phone</h4>
                             <input type="text" name="reg_phone" value="" class="form-control">
                         </div>
-                        <div class="pull-right">
-                            <button id="contactsubmit" class="btn btn-danger" data-loading-text="Sending...">Send</button>
-                        </div>
+                        <div class="col-md-12"><button id="contactsubmit" class="btn btn-danger" data-loading-text="Sending...">Send</button></div>
+                        <div class="col-md-12"><h4>or Send your CV to <i>hrd@wow.id</i></h4></div>
+
                     </div>
                 </form>
             </div>
