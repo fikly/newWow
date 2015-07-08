@@ -1320,9 +1320,9 @@ body{
         height: 330px !important;
     }
 }
-@media(min-width: 960px) and (max-height: 700px){
+@media(min-width: 960px){
     .main section.page1 .page_container {
-        width: 80%;
+        width: 70%;
     }
     .logo5 {
         right: -60px !important;

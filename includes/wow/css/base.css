@@ -225,9 +225,6 @@ header {
     }
 }
 @media(max-width: 2560px){
-    .main section.page1 .page_container {
-        top: 21% !important;
-    }
     @-moz-document url-prefix(){
         .main section.page1 .page_container {
             width: 745px;
@@ -239,6 +236,19 @@ header {
         .txt-bottom-home {
             top: 252px !important;
         }
+    }
+    .main section.page1 .page_container {
+        top: 21% !important;
+    }
+    .main section.page1 .page_container {
+        width: 745px;
+    }
+    .logo5{
+        right: -123px !important;
+        top: 192px !important;
+    }
+    .txt-bottom-home {
+        top: 252px !important;
     }
 }
 @media(max-width: 1280px){
