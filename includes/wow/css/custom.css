@@ -459,6 +459,19 @@
         width: 100%;
         display:none;
     }
+    .logo5{
+        right: 165px !important;
+        top: 380px !important;
+    }
+    .logo5 h3{
+        font-size: 35px;
+    }
+    .logo5 .brand-logo{
+        font-size: 20px;
+    }
+    .logo5 h2{
+        font-size: 50px;
+    }
 }
 @media screen and (max-width:414px){
     .logo-client{
@@ -969,7 +982,7 @@
 @media screen and (max-width:320px){
     .main section.page1 .page_container {
         width: 130% !important;
-        top: 130px !important;
+        top: 65px !important;
         right: 48px !important;
     }
     .img-responsive{
@@ -981,7 +994,7 @@
         top: -65px;
     }
     .page1{
-        top: -15% !important;
+        top: 0% !important;
     }
     .logo5{
         right: 151px !important;
@@ -1308,12 +1321,12 @@ body{
         height: 450px !important;
     }
     .nav-home{
-        top: 450px;
+        top: 400px;
     }
 }
 @media(max-height:400px){
     .nav-home{
-        top: 370px;
+        top: 350px;
     }
     .content-career{
         height: 350px !important;
@@ -1321,7 +1334,7 @@ body{
 }
 @media(max-height:380px){
     .nav-home{
-        top: 438px;
+        top: 320px;
     }
     .content-career{
         height: 330px !important;

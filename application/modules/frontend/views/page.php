@@ -546,7 +546,7 @@
                                                     <div class="photo-text">
                                                         <div class="photo-text-middle">
 
-                                                            <p class="nama" style="font-family: dinPro; font-size: 11px; font-style: bold;"> <strong>
+                                                            <p class="nama2" style="font-family: dinPro; font-size: 11px; font-style: bold;"> <strong>
                                                                     MARVIN JULIAN<br>
                                                                     CREATIVE DIRECTOR<br><br></strong></p>
                                                             <p style="font-size:10px;">
