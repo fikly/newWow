@@ -313,7 +313,14 @@
     .gallery__item-about .content-over .photo-text {
         width: 160px;
     }
-
+    .logo5 {
+        right: -120px !important;
+        top: 150px !important;
+    }
+    .txt-bottom-home {
+        top: 180px;
+        left: -621px;
+    }
     .small{
         display: block;
     }
@@ -1318,19 +1325,5 @@ body{
     }
     .content-career{
         height: 330px !important;
-    }
-}
-@media(min-width: 960px){
-    .main section.page1 .page_container {
-        width: 70%;
-    }
-    .logo5 {
-        right: -60px !important;
-        top: 203px !important;
-    }
-    .txt-bottom-home {
-        top: 247px;
-        display: block;
-        left: -594px;
     }
 }

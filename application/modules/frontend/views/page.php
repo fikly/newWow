@@ -35,8 +35,7 @@
         <link rel="stylesheet" href="<?php echo INCLUDE_DIR; ?>wow/javascripts/dist/stylesheets/superslides.css">
 
         <!-- favicon -->
-        <link rel="shortcut icon" href="<?php echo INCLUDE_DIR; ?>wow/static/images/third-slide/logo.png" type="image/x-icon">
-        <link rel="icon" href="<?php echo INCLUDE_DIR; ?>wow/static/images/third-slide/logo.png" type="image/x-icon">
+        <link rel="icon" href="<?php echo INCLUDE_DIR; ?>wow/mainlogo/favicon.png" type="image/x-icon">
 
 
         <script src="<?php echo INCLUDE_DIR; ?>wow/js/jquery-2.1.1.min.js"></script>
@@ -495,7 +494,7 @@
                                                             <p class="nama" style="font-family: dinPro; font-size: 11px; font-style: bold;"><strong>
                                                                     Edah Budiman<br>
                                                                     General Manager Media and Finance<br><br></strong></p>
-                                                            <p style="font-size:10px;">Strong relationship with media people from various kind of media in most cities in Indonesia have given her the â€œreal bargainâ€�.  All that will be rewarded back for the benefit of the clients.</p>
+                                                            <p style="font-size:10px;">Strong relationship with media people from various kind of media in most cities in Indonesia have given her.  All that will be rewarded back for the benefit of the clients.</p>
 
 
                                                         </div>

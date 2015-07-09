@@ -110,7 +110,6 @@ header {
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    min-height: 700px;
     text-align: center;
 }
 
@@ -224,23 +223,9 @@ header {
         width: 67%;
     }
 }
-@media(max-width: 2560px){
-    @-moz-document url-prefix(){
-        .main section.page1 .page_container {
-            width: 745px;
-        }
-        .logo5{
-            right: -123px !important;
-            top: 192px !important;
-        }
-        .txt-bottom-home {
-            top: 252px !important;
-        }
-    }
+@media(min-width: 2560px){
     .main section.page1 .page_container {
         top: 21% !important;
-    }
-    .main section.page1 .page_container {
         width: 745px;
     }
     .logo5{
@@ -257,12 +242,17 @@ header {
         top: 43px !important;
     }
 }
+@media (max-height: 720px){
+    .main section.page1 .page_container {
+        width: 65% !important;
+    }
+}
 @media(max-width: 1024px){
     .main section.page1 .page_container {
         width: 820px;
     }
 }
-@media (max-height: 600px) and (max-width: 1024px){
+@media (max-height: 720px) and (max-width: 1024px){
     .main section.page1 .page_container {
         width: 74% !important;
     }
@@ -270,6 +260,11 @@ header {
 @media(max-width: 1020px){
     .main section.page1 .page_container {
         width: 100%;
+    }
+}
+@media (max-height: 720px) and (max-width: 960px){
+    .main section.page1 .page_container {
+        width: 60% !important;
     }
 }
 @keyframes slidein {

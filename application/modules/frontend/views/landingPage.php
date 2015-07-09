@@ -5,8 +5,7 @@
         <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
 
         <title>WOW Communication - Creative Agency + Brand Activation</title>
-        <link rel="shortcut icon" href="<?php echo INCLUDE_DIR; ?>wow/static/images/third-slide/logo.png" type="image/x-icon">
-        <link rel="icon" href="<?php echo INCLUDE_DIR; ?>wow/static/images/third-slide/logo.png" type="image/x-icon">
+        <link rel="icon" href="<?php echo INCLUDE_DIR; ?>wow/mainlogo/favicon.png" type="image/x-icon">
 
         <!-- Practical proven viewport for better mobile experience -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
